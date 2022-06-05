@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    border: 1px solid #000;
+    max-width: 300px;
+}
+.itens{
+    background-color: orangered;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    color: #fff;
+}
+.fgr-0{
+    flex-grow: 0;
+}
+.fgr-1{
+    flex-grow: 1;
+}
+.fgr-2{
+    flex-grow: 2;
+}
+.fgr-3{
+    flex-grow: 3;
+}
